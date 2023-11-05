@@ -1,14 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useEffect, useState } from "react";
-import {
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  TextInput,
-  Pressable,
-} from "react-native";
-
+import {StyleSheet,Text,View, Image,TextInput,Pressable,} from "react-native";
 export default function screen_01({ navigation }) {
   var [data, setData] = useState([]);
   var arr = []
@@ -36,14 +28,8 @@ var arr1  = arr
       </View>
       <View style={{ flex: 1, marginLeft: "14px" }}>
         <Text
-          style={{
-            fontFamily: "Roboto",
-            fontSize: "20px",
-            lineHeight: "18,75px",
-            fontWeight: 700,
-          }}
-        >
-          Choice you Best food
+          style={{fontFamily: "Roboto",fontSize: "20px",lineHeight: "18,75px",fontWeight: 700,}}
+        > Choice you Best food
         </Text>
       </View>
       <View style={{ flex: 1, marginLeft: "14px" }}>
