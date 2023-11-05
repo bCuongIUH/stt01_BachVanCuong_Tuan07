@@ -157,7 +157,7 @@ var arr1  = arr
                   image: item.image,
                   name: item.name,
                   price: item.price,
-                  des: item.discription,
+                  des: item.des,
                 });
               }}
               style={{
